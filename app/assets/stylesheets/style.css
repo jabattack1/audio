@@ -1,5 +1,9 @@
 html {
-  	width:1000px;
+  	
+    }
+
+body {
+	width:900px;
   	height: 675px;
   /*background-color:rgba(0,0,0,0.5);*/
    	margin:0 auto;
@@ -12,11 +16,8 @@ html {
   	background: url(http://i1301.photobucket.com/albums/ag119/jabattack1/001_zpssi2vur6g.jpg) no-repeat;
      background-position: center;
      background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
               /*position: center;*/
-    }
-
-body {
 
 }
 
