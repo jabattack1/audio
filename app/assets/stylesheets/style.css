@@ -12,31 +12,12 @@ html {
   	background: url(http://i1301.photobucket.com/albums/ag119/jabattack1/001_zpssi2vur6g.jpg) no-repeat;
      background-position: center;
      background-repeat: no-repeat;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
               /*position: center;*/
     }
 
 body {
-  /*background-color:rgba(0,0,0,0.5);*/
-  /*background-size: 900px 1px;*/
-  background-image: fixed;
- /* background-width:900px;
-  height: 675px;*/
-  background-size: cover;
-  /*background-size: 100%;*/
-  background-color:rgba(0,0,0,0.5);
-  /*background-position: 50.5% 0.2%;*/
-  font-family: Georgia, serif;
-  background-position: center;
-  /*background-size: contain;*/
-  /*background-repeat:no-repeat;*/
-  background-attachment:scroll;
-  /*overflow-x: hidden;*/
-  /*width: 800px;*/
-  margin: 0 auto;
-  /*position: absolute;*/
 
-  /*overflow-y: hidden;*/
 }
 
 #logo{
