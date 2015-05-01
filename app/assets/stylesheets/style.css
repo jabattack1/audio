@@ -1,5 +1,5 @@
 html {
-  	width:900px;
+  	width:1000px;
   	height: 675px;
   /*background-color:rgba(0,0,0,0.5);*/
    	margin:0 auto;
@@ -115,7 +115,7 @@ body {
 	margin-top: 60px;
 	position: absolute;
 	font-size: 27px;
-	width:400px;
+	width:252px;
 }
 
 #AudioBoy:hover { 
