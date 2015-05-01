@@ -5,6 +5,7 @@ html {
 body {
 	width:900px;
   	height: 675px;
+  	/*set width and height to 100% in the future*/
   /*background-color:rgba(0,0,0,0.5);*/
    	margin:0 auto;
    	position: absolute;
@@ -199,7 +200,7 @@ body {
 #photo {
 	width: 170px;
 	height: 200px;
-	margin-top: 25%;
+	margin-top: 90px;
 	margin-left:110px;
 }
 
@@ -249,7 +250,7 @@ body {
     -1px 1px 0 #000000,
     1px 1px 0 #000000;
     margin-top: 40px;
-    margin-left:11px;
+    margin-left:8px;
 }
 
 #contactpeter {
