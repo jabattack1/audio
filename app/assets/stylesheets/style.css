@@ -112,7 +112,7 @@ body {
     -2px 2px 0 #000000,
     2px 2px 0 #000000;
 	color: #E0D669;
-	text-decoration: none;
+	text-decoration: none !important;
 	margin-left: 52px;
 	margin-top: 60px;
 	position: absolute;
@@ -125,7 +125,7 @@ body {
 
 	font-weight: bold;
     color: #9BCCF7;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 #PeterHahn {
@@ -224,6 +224,7 @@ body {
     1px 1px 0 #000000;
     margin-top: 110px;
     margin-left:70px;
+
 }
 
 #audiodo {
