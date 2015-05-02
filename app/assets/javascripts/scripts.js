@@ -1,4 +1,6 @@
 var tv ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/snow_zpsd3ayaw2w.gif' id='tv'>";
+var offair ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/offair_zpsqxtb8goq.png' id='offair'>";
+
 var logo ="<a href=\"/\" class='animated fadeIn' onClick=\"home();return false;\"><img src='http://i1301.photobucket.com/albums/ag119/jabattack1/headphonesINVERTED2_zpsuu9jvfmc.png' id='logo' class='animated slideInDown'></a>";
 
 var AudioBoyInfo ="<div id='gel'><h2 id='audiopeter' class='animated fadeIn'>Audio Boy = Rebel Solo</h2><h2 id='audiodo' class='animated fadeIn'>Audio Boy = Peter Hahn</h2>"
@@ -7,6 +9,8 @@ var ContactInfo ="<div id='gel4'><h2 id='contactpeter' class='animated fadeIn'>5
 var MV ="<div id='gel3'><iframe class='animated slideInUp' width=\"660\" height=\"415\" src=\"https://www.youtube.com/embed/B_HmvMoca3c\" frameborder=\"0\" allowfullscreen></iframe></div>"
 var headshot = "<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/phat_zpsnq9fh8qf.jpg' class='animated fadeIn' id='photo'>";
 var RebelSolo ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/rebel%20solo%20BG_zps3xicpxkh.jpg' class='animated fadeIn' id='RebelSolo'>";
+var stuckgraph ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/soundWaveGIF_zpshjfeknmg.gif' class='animated fadeIn' id='stuckgraph'>";
+var scene ="<img src='http://i1301.photobucket.com/albums/ag119/jabattack1/NightSky_1_zpsryhjvw7f.jpg' class='animated fadeIn' id='scene'>";
 
 function home(){
     $('#content').empty();
@@ -45,6 +49,10 @@ function MusicVideo(){
 
 function play_microphone(){
     var audio = document.getElementById("audio_microphone");
+    var audio1 = document.getElementById("audio_stuck");
+    var audio2 = document.getElementById("audio_program");
+    audio1.load();
+    audio2.load();
     audio.play();
     $('#content').empty();
     $('#video').empty();
@@ -54,4 +62,65 @@ function play_microphone(){
 function pause_microphone(){
     var audio = document.getElementById("audio_microphone");
     audio.pause();
+    $('#content').empty();
+    $('#content').append(offair);
+}
+
+function stop_microphone(){
+    var audio = document.getElementById("audio_microphone");
+    audio.load();
+    $('#content').empty();
+    $('#content').append(tv);
+}
+
+function play_stuck(){
+    var audio = document.getElementById("audio_stuck");
+    var audio1 = document.getElementById("audio_microphone");
+    var audio2 = document.getElementById("audio_program");
+    audio1.load();
+    audio2.load();
+    audio.play();
+    $('#content').empty();
+    $('#video').empty();
+    $('#content').append(stuckgraph);
+}
+
+function pause_stuck(){
+    var audio = document.getElementById("audio_stuck");
+    audio.pause();
+    $('#content').empty();
+    $('#content').append(offair);
+}
+
+function stop_stuck(){
+    var audio = document.getElementById("audio_stuck");
+    audio.load();
+    $('#content').empty();
+    $('#content').append(tv);
+}
+
+function play_program(){
+    var audio = document.getElementById("audio_program");
+    var audio1 = document.getElementById("audio_stuck");
+    var audio2 = document.getElementById("audio_microphone");
+    audio1.load();
+    audio2.load();
+    audio.play();
+    $('#content').empty();
+    $('#video').empty();
+    $('#content').append(scene);
+}
+
+function pause_program(){
+    var audio = document.getElementById("audio_program");
+    audio.pause();
+    $('#content').empty();
+    $('#content').append(offair);
+}
+
+function stop_program(){
+    var audio = document.getElementById("audio_program");
+    audio.load();
+    $('#content').empty();
+    $('#content').append(tv);
 }

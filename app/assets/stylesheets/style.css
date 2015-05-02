@@ -58,7 +58,7 @@ body {
 	/*background-position: center;*/
 	height: 435px;
 	width: 585px;
-	margin-left: 320px;
+	margin-left: 325px;
 	margin-top: 230px;
 	/*position: static;*/
 	z-index: 1; position:absolute
@@ -90,11 +90,35 @@ body {
     
 }
 
+#audioplayer {
+	position:absolute;
+	background:url(http://i1301.photobucket.com/albums/ag119/jabattack1/TOFU_zps9s13flhn.png);
+	background-size: 400px 150px;
+	margin-left: 500px;
+	margin-top: 30px;
+	width: 400px;
+	height: 150px;
+	/*z-index: -10;*/
+	/*background-color:rgba(0,0,0,0.5);*/
+}
+
 #tv {
 	width: 100%;
 	height: 100%;
 	position: absolute;
 	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	overflow-x: none;
+	overflow-y: none;
+}
+
+#offair {
+	width: 100%;
+	height: 90%;
+	position: absolute;
+	margin-left: -0%;
 	margin-right: 0%;
 	margin-top: 0%;
 	margin-bottom: 0%;
@@ -251,7 +275,7 @@ body {
     -1px 1px 0 #000000,
     1px 1px 0 #000000;
     margin-top: 40px;
-    margin-left:8px;
+    margin-left:12px;
 }
 
 #contactpeter {
@@ -324,16 +348,221 @@ body {
 	width: 550px;
 }
 
+#stuckgraph {
+	position:absolute;
+	height:350px;
+	width: 550px;
+}
+
+#scene{
+	position:absolute;
+	height:350px;
+	width: 500px;
+	margin-left:-100px;
+}
+
 #audio_microphone{
 	display:none;
 }
 
-#play_microphone{
-	margin-left:900px;
+#microtext{
+	font-family: 'Cabin', Georgia, Times, serif;
 	position:absolute;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 60px;
 }
 
-#pause_microphone{
-	margin-left:1000px;
+#play_microphone{
+	margin-left:270px;
+	margin-top: 20px;
 	position:absolute;
+	/*background-color: #ccc;*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    /*font-family: 'Oswald';*/
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    height: 20px;
+	width: 20px;
+	/*z-index:10;*/
+	/*display:none;*/
 }
+
+/*#play_microphone{
+	margin-top:0px;
+	margin-left:290px;
+	position:absolute;
+}*/
+
+#pause_microphone{
+	margin-left:300px;
+	margin-top: 20px;
+	position:absolute;
+	 -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    height: 20px;
+	width: 20px;
+}
+
+#stop_microphone{
+	margin-left:330px;
+	margin-top: 20px;
+	position:absolute;
+	 -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    height: 20px;
+	width: 20px;
+}
+
+#audio_stuck{
+	display:none;
+}
+
+#stucktext{
+	font-family: 'Cabin', Georgia, Times, serif;
+	position:absolute;
+	font-size: 20px;
+	margin-top: 55px;
+	margin-left: 60px;
+}
+
+#play_stuck{
+	margin-top: 55px;
+	margin-left:270px;
+	position:absolute;
+	 -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    height: 20px;
+	width: 20px;
+}
+
+#pause_stuck{
+	margin-top: 55px;
+	margin-left:300px;
+	position:absolute;
+	 -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    height: 20px;
+	width: 20px;
+}
+
+#stop_stuck{
+	margin-top: 55px;
+	margin-left:330px;
+	position:absolute;
+	 -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    height: 20px;
+	width: 20px;
+}
+
+#audio_program{
+	display:none;
+}
+
+#programtext{
+	font-family: 'Cabin', Georgia, Times, serif;
+	position:absolute;
+	font-size: 20px;
+	margin-top:90px;
+	margin-left: 60px;
+}
+
+#play_program{
+	margin-top:90px;
+	margin-left:270px;
+	position:absolute;
+	 -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    height: 20px;
+	width: 20px;
+}
+
+#pause_program{
+	margin-top:90px;
+	margin-left:300px;
+	position:absolute;
+	 -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    height: 20px;
+	width: 20px;
+}
+
+#stop_program{
+	margin-top:90px;
+	margin-left:330px;
+	position:absolute;
+	 -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    height: 20px;
+	width: 20px;
+}
+
+.inputHighlighted{  /* Highlighting style */
+  background-color:#317082;
+  color:#FFF;
+  width:300px;
+  border:1px solid #000;
+}
+
