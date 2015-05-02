@@ -151,3 +151,7 @@ function stop_program(){
     $('#content').empty();
     $('#content').append(tv);
 }
+
+function remove_mv(){
+    $('#gel3').remove();
+}
