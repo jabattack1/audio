@@ -46,7 +46,7 @@
 <a href="/" id="PeterHahn" class='animated fadeIn' onClick="PeterHahn();return false;">Peter Hahn</a>
 </div>
 <div class="grow3" >
-<a href="/" id="MV" class='animated fadeIn' onClick="MusicVideo();return false;">M/V (retro payback)</a>
+<a href="/" id="MV" class='animated fadeIn' onClick="MusicVideo();return false;">[MV] retro payback</a>
 </div>
 <div class="grow4" >
 <a href="/" id="Contact" class='animated fadeIn' onClick="ContactInfor();return false;">Contact</a>
@@ -56,7 +56,7 @@
 </div>
 
 <div id='audioplayer' class='animated slideInRight'>
-<p id='microtext'>microphone, rebel solo</p>
+<p id='microtext'>1. microphone, rebel solo</p>
 <input id="play_microphone" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/media-play_zpsev0suqqk.png" alt="Submit" value="PLAY"  onclick="play_microphone();return false;">
 <input id="pause_microphone" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/media-pause_zpsjyfj9yjo.png" alt="Submit" value="PAUSE"  onclick="pause_microphone()">
 <input id="stop_microphone" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/media-stop_zpsfuqjvkkc.png" alt="Submit" value="STOP"  onclick="stop_microphone()">
@@ -66,7 +66,7 @@
         Sorry, your browser does not support HTML5 audio.
 </audio>
 
-<p id='stucktext'>8 bit nemesis</p>
+<p id='stucktext'>2. 8 bit nemesis</p>
 <input id="play_stuck" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/media-play_zpsev0suqqk.png" alt="Submit" value="PLAY"  onclick="play_stuck()">
 <input id="pause_stuck" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/media-pause_zpsjyfj9yjo.png" alt="Submit" value="PAUSE"  onclick="pause_stuck()">
 <input id="stop_stuck" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/media-stop_zpsfuqjvkkc.png" alt="Submit" value="STOP"  onclick="stop_stuck()">
@@ -75,7 +75,7 @@
         Sorry, your browser does not support HTML5 audio.
 </audio>
 
-<p id='programtext'>program</p>
+<p id='programtext'>3. program</p>
 <input id="play_program" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/media-play_zpsev0suqqk.png" alt="Submit" value="PLAY"  onclick="play_program()">
 <input id="pause_program" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/media-pause_zpsjyfj9yjo.png" alt="Submit" value="PAUSE"  onclick="pause_program()">
 <input id="stop_program" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/media-stop_zpsfuqjvkkc.png" alt="Submit" value="STOP"  onclick="stop_program()">
@@ -83,6 +83,10 @@
         <source type="audio/mp3" src="Supernova.mp3">
         Sorry, your browser does not support HTML5 audio.
 </audio>
+
+<p href="/" id="MVplayer">4. retro payback [MV]</p>
+<a href="/" onClick="MusicVideo();return false;"id="direction">Click to Play</a>
+
 </div>
 
 <%= yield %>

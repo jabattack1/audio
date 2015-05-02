@@ -57,6 +57,7 @@ function play_microphone(){
     var audio = document.getElementById("audio_microphone");
     var audio1 = document.getElementById("audio_stuck");
     var audio2 = document.getElementById("audio_program");
+    $('#video').empty();
     audio1.load();
     audio2.load();
     audio.play();
@@ -71,6 +72,7 @@ function play_microphone(){
 
 function pause_microphone(){
     var audio = document.getElementById("audio_microphone");
+    $('#video').empty();
     audio.pause();
     $('#content').empty();
     $('#content').append(offair);
@@ -78,6 +80,7 @@ function pause_microphone(){
 
 function stop_microphone(){
     var audio = document.getElementById("audio_microphone");
+    $('#video').empty();
     audio.load();
     $('#circle1').remove();
     // $('#circle2').remove();
@@ -90,6 +93,7 @@ function play_stuck(){
     var audio = document.getElementById("audio_stuck");
     var audio1 = document.getElementById("audio_microphone");
     var audio2 = document.getElementById("audio_program");
+    $('#video').empty();
     audio1.load();
     audio2.load();
     audio.play();
@@ -104,6 +108,7 @@ function play_stuck(){
 
 function pause_stuck(){
     var audio = document.getElementById("audio_stuck");
+    $('#video').empty();
     audio.pause();
     $('#content').empty();
     $('#content').append(offair);
@@ -111,6 +116,7 @@ function pause_stuck(){
 
 function stop_stuck(){
     var audio = document.getElementById("audio_stuck");
+    $('#video').empty();
     audio.load();
     // $('#circle1').remove();
     $('#circle2').remove();
@@ -123,6 +129,7 @@ function play_program(){
     var audio = document.getElementById("audio_program");
     var audio1 = document.getElementById("audio_stuck");
     var audio2 = document.getElementById("audio_microphone");
+    $('#video').empty();
     audio1.load();
     audio2.load();
     audio.play();
@@ -137,6 +144,7 @@ function play_program(){
 
 function pause_program(){
     var audio = document.getElementById("audio_program");
+    $('#video').empty();
     audio.pause();
     $('#content').empty();
     $('#content').append(offair);
@@ -144,6 +152,7 @@ function pause_program(){
 
 function stop_program(){
     var audio = document.getElementById("audio_program");
+    $('#video').empty();
     audio.load();
     // $('#circle1').remove();
     // $('#circle2').remove();
@@ -152,6 +161,6 @@ function stop_program(){
     $('#content').append(tv);
 }
 
-function remove_mv(){
-    $('#gel3').remove();
-}
+// function remove_mv(){
+//     $('#gel3').remove();
+// }
