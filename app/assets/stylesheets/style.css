@@ -92,7 +92,7 @@ body {
 
 #audioplayer {
 	position:absolute;
-	background:url(http://i1301.photobucket.com/albums/ag119/jabattack1/TOFU_zps9s13flhn.png);
+	background:url(http://i1301.photobucket.com/albums/ag119/jabattack1/TOFU_zpspzj3dwth.png);
 	background-size: 400px 150px;
 	margin-left: 500px;
 	margin-top: 30px;
@@ -559,10 +559,25 @@ body {
 	width: 20px;
 }
 
-.inputHighlighted{  /* Highlighting style */
-  background-color:#317082;
-  color:#FFF;
-  width:300px;
-  border:1px solid #000;
+#circle1 {
+	height: 30px;
+	width: 220px;
+	margin-left:47px;
+	margin-top:20px;
 }
+
+#circle2 {
+	height: 30px;
+	width: 220px;
+	margin-left:47px;
+	margin-top:50px;
+}
+
+#circle3 {
+	height: 30px;
+	width: 220px;
+	margin-left:47px;
+	margin-top:90px;
+}
+
 
