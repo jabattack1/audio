@@ -58,7 +58,8 @@ body {
 	margin-left: 280px;
 	margin-top: 180px;
 	/*position: static;*/
-	z-index: 1; position:absolute
+	z-index: 1; 
+	position:absolute;
 }
 
 
