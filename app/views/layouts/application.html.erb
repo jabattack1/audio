@@ -32,6 +32,28 @@
 <div id="logo_holder">
 </div>
 
+
+<script src="http://connect.soundcloud.com/sdk.js"></script>
+<script>
+
+SC.initialize({
+  client_id: '7e1e5d50b5f91b20d6880ec7c8a19fd4'
+});
+
+// stream track id 293
+SC.stream("/tracks/203941979", function(sound){
+  program = sound;
+});
+
+SC.stream("/tracks/203942252", function(sound){
+  micro = sound;
+});
+
+SC.stream("/tracks/203941955", function(sound){
+  stuck = sound;
+});
+</script>
+
 <script>
 	$('#logo_holder').append(logo);
 </script>
@@ -61,29 +83,29 @@
 <input id="pause_microphone" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/media-pause_zpsjyfj9yjo.png" alt="Submit" value="PAUSE"  onclick="pause_microphone()">
 <input id="stop_microphone" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/media-stop_zpsfuqjvkkc.png" alt="Submit" value="STOP"  onclick="stop_microphone()">
 
-<audio id="audio_microphone" preload="auto" tabindex="0" controls="" type="audio/mpeg">
+<!-- <audio id="audio_microphone" preload="auto" tabindex="0" controls="" type="audio/mpeg">
         <source type="audio/mp3" src="Supernova.mp3">
         Sorry, your browser does not support HTML5 audio.
-</audio>
+</audio> -->
 
 <p id='stucktext'>2. 8 bit nemesis</p>
-<input id="play_stuck" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/media-play_zpsev0suqqk.png" alt="Submit" value="PLAY"  onclick="play_stuck()">
+<input id="play_stuck" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/media-play_zpsev0suqqk.png" alt="Submit" value="PLAY"  onclick="play_stuck();return false;">
 <input id="pause_stuck" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/media-pause_zpsjyfj9yjo.png" alt="Submit" value="PAUSE"  onclick="pause_stuck()">
 <input id="stop_stuck" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/media-stop_zpsfuqjvkkc.png" alt="Submit" value="STOP"  onclick="stop_stuck()">
-<audio id="audio_stuck" preload="auto" tabindex="0" controls="" type="audio/mpeg">
+<!-- <audio id="audio_stuck" preload="auto" tabindex="0" controls="" type="audio/mpeg">
         <source type="audio/mp3" src="Supernova.mp3">
         Sorry, your browser does not support HTML5 audio.
-</audio>
+</audio> -->
 
 <p id='programtext'>3. program</p>
-<input id="play_program" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/media-play_zpsev0suqqk.png" alt="Submit" value="PLAY"  onclick="play_program()">
+<input id="play_program" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/media-play_zpsev0suqqk.png" alt="Submit" value="PLAY"  onclick="play_program();return false;">
 <input id="pause_program" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/media-pause_zpsjyfj9yjo.png" alt="Submit" value="PAUSE"  onclick="pause_program()">
 <input id="stop_program" type="image" src="http://i1301.photobucket.com/albums/ag119/jabattack1/media-stop_zpsfuqjvkkc.png" alt="Submit" value="STOP"  onclick="stop_program()">
-<audio id="audio_program" preload="auto" tabindex="0" controls="" type="audio/mpeg">
+<!-- <audio id="audio_program" preload="auto" tabindex="0" controls="" type="audio/mpeg">
         <source type="audio/mp3" src="Supernova.mp3">
         Sorry, your browser does not support HTML5 audio.
 </audio>
-
+ -->
 <p href="/" id="MVplayer">4. retro payback M/V</p>
 <a href="/" onClick="MusicVideo();return false;"id="direction">Click to Play</a>
 

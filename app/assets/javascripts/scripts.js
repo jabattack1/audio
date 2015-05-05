@@ -58,9 +58,10 @@ function play_microphone(){
     var audio1 = document.getElementById("audio_stuck");
     var audio2 = document.getElementById("audio_program");
     $('#video').empty();
-    audio1.load();
-    audio2.load();
-    audio.play();
+    program.stop();
+    // micro.stop();
+    stuck.stop();
+    micro.play();
     $('#circle1').remove();
     $('#circle2').remove();
     $('#circle3').remove();
@@ -73,7 +74,7 @@ function play_microphone(){
 function pause_microphone(){
     var audio = document.getElementById("audio_microphone");
     $('#video').empty();
-    audio.pause();
+    micro.pause();
     $('#content').empty();
     $('#content').append(offair);
 }
@@ -81,7 +82,7 @@ function pause_microphone(){
 function stop_microphone(){
     var audio = document.getElementById("audio_microphone");
     $('#video').empty();
-    audio.load();
+    micro.stop();
     $('#circle1').remove();
     // $('#circle2').remove();
     // $('#circle3').remove();
@@ -94,9 +95,10 @@ function play_stuck(){
     var audio1 = document.getElementById("audio_microphone");
     var audio2 = document.getElementById("audio_program");
     $('#video').empty();
-    audio1.load();
-    audio2.load();
-    audio.play();
+    program.stop();
+    // stuck.stop();
+    micro.stop();
+    stuck.play();
     $('#circle1').remove();
     $('#circle2').remove();
     $('#circle3').remove();
@@ -109,7 +111,7 @@ function play_stuck(){
 function pause_stuck(){
     var audio = document.getElementById("audio_stuck");
     $('#video').empty();
-    audio.pause();
+    stuck.pause();
     $('#content').empty();
     $('#content').append(offair);
 }
@@ -117,7 +119,7 @@ function pause_stuck(){
 function stop_stuck(){
     var audio = document.getElementById("audio_stuck");
     $('#video').empty();
-    audio.load();
+    stuck.stop();
     // $('#circle1').remove();
     $('#circle2').remove();
     // $('#circle3').remove();
@@ -130,9 +132,10 @@ function play_program(){
     var audio1 = document.getElementById("audio_stuck");
     var audio2 = document.getElementById("audio_microphone");
     $('#video').empty();
-    audio1.load();
-    audio2.load();
-    audio.play();
+    // program.stop();
+    micro.stop();
+    stuck.stop();
+    program.play();
     $('#circle1').remove();
     $('#circle2').remove();
     $('#circle3').remove();
@@ -145,21 +148,22 @@ function play_program(){
 function pause_program(){
     var audio = document.getElementById("audio_program");
     $('#video').empty();
-    audio.pause();
+    program.pause();
     $('#content').empty();
     $('#content').append(offair);
 }
 
 function stop_program(){
     var audio = document.getElementById("audio_program");
-    $('#video').empty();
-    audio.load();
+    program.stop();
     // $('#circle1').remove();
     // $('#circle2').remove();
     $('#circle3').remove();
     $('#content').empty();
     $('#content').append(tv);
 }
+
+
 
 // function remove_mv(){
 //     $('#gel3').remove();
