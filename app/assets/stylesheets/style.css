@@ -15,14 +15,14 @@ body {
 	background-color: white;
 	background-size: 100%;
   	background: url(http://i1301.photobucket.com/albums/ag119/jabattack1/ezgif.com-gif-maker%202_zpssybdcadu.gif);
-     background-position: center;
-     background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
               /*position: center;*/
 
 }
 
-#logo{
+#logo {
 	height: 260px;
 	width: 260px;
 	margin-left:0px;
