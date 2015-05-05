@@ -224,7 +224,7 @@ body {
 	width: 170px;
 	height: 200px;
 	margin-top: 90px;
-	margin-left:110px;
+	margin-left:130px;
 }
 
 .grow { transition: all .2s ease-in-out; }
@@ -245,8 +245,8 @@ body {
     1px -1px 0 #000000,
     -1px 1px 0 #000000,
     1px 1px 0 #000000;
-    margin-top: 110px;
-    margin-left:70px;
+    margin-top: 130px;
+    margin-left:90px;
 
 }
 
@@ -259,8 +259,8 @@ body {
     1px -1px 0 #000000,
     -1px 1px 0 #000000,
     1px 1px 0 #000000;
-    margin-top: 160px;
-    margin-left:70px;
+    margin-top: 180px;
+    margin-left:90px;
 }
 
 
@@ -274,7 +274,7 @@ body {
     -1px 1px 0 #000000,
     1px 1px 0 #000000;
     margin-top: 35px;
-    margin-left:12px;
+    margin-left:32px;
     text-decoration: none;
 }
 
@@ -287,8 +287,8 @@ body {
     1px -1px 0 #000000,
     -1px 1px 0 #000000,
     1px 1px 0 #000000;
-    margin-top: 145px;
-    margin-left:120px;
+    margin-top: 165px;
+    margin-left:140px;
 }
 
 
@@ -357,7 +357,7 @@ body {
 #scene{
 	position:absolute;
 	height:350px;
-	width: 500px;
+	width: 550px;
 	margin-left:-100px;
 }
 
