@@ -17,7 +17,7 @@ body {
   	background: url(http://i1301.photobucket.com/albums/ag119/jabattack1/ezgif.com-gif-maker%202_zpssybdcadu.gif);
      background-position: center;
      background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
               /*position: center;*/
 
 }
