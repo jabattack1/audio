@@ -4,7 +4,7 @@ html {
 
 body {
 	width:900px;
-  	height: 400px;
+  	height: 650px;
   	/*set width and height to 100% in the future*/
   /*background-color:rgba(0,0,0,0.5);*/
    	margin:0 auto;
@@ -17,7 +17,7 @@ body {
   	background: url(http://i1301.photobucket.com/albums/ag119/jabattack1/ezgif.com-gif-maker%202_zpssybdcadu.gif);
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
               /*position: center;*/
 
 }
@@ -76,15 +76,15 @@ body {
 	height: 380px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0);
-  border-radius: 5px 5px 5px 5px;
-  overflow-x:none;
-  overflow-y: auto;
-  padding-right: 28px;
-  border-bottom-left-radius:10%;
-  border-bottom-right-radius:10%;
-  border-top-left-radius:10%;
-  border-top-right-radius:10%;
-  z-index: -1;
+  	border-radius: 5px 5px 5px 5px;
+  	overflow-x:none;
+  	overflow-y: auto;
+  	padding-right: 28px;
+  	border-bottom-left-radius:10%;
+  	border-bottom-right-radius:10%;
+  	border-top-left-radius:10%;
+  	border-top-right-radius:10%;
+  	z-index: -1;
     
 }
 
